@@ -31,6 +31,16 @@ export default {
     }
   }),
   mounted() {
+    const KeyHelper = window.libsignal.KeyHelper;
+
+    const registrationId = KeyHelper.generateRegistrationId();
+    console.log("Did a registration", registrationId);
+
+    KeyHelper.generateIdentityKeyPair().then(function(identityKeyPair) {
+        console.log("identity key pair", identityKeyPair)
+    });
+
+
     Navigation.init();
     document.addEventListener('keydown', this.onKeyDown);
   },
