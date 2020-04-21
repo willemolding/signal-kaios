@@ -1,0 +1,23 @@
+{
+  "version": "0.0.1",
+  "name": "Signal",
+  "description": "Signal for KaiOS/GerdaOS",
+  "type": "web",
+  "launch_path": "/index.html",
+  "icons": {
+    "56": "/assets/icons/kaios_56.png",
+    "112": "/assets/icons/kaios_112.png"
+  },
+  "developer": {
+    "name": "Willem Olding (@wollum)",
+    "url": "https://github.com/willemolding"
+  },
+  "locales": {
+    "en-US": {
+      "name": "Signal",
+      "subtitle": "Signal for KaiOS/GerdaOS",
+      "description": "Signal for KaiOS/GerdaOS",
+    }
+  },
+  "default_locale": "en-US"
+}
